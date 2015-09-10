@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway:400,300,700);
+
+
+html, body, div, nav, header, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.container {
+    margin: 0px auto;
+    width: 90%;
+    background-color: #A3A573;
+    padding: 20px;
+    }
+
+  /* p {
+    padding: 20px;
+}*/
+
+header {
+  background-color: #C2CA37;
+  width: 95%;
+  margin: 0 auto;
+  height: 70px;
+}
+h1 {
+  color: #48281D;
+  font-family: "Lobster";
+  font-size: 45px;
+  padding-top: 10px;
+}
+
+
+h2 {
+  color: #48281D;
+  font-family: "Lobster";
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+
+nav {
+  background-color: #353B1E;
+  width: 95%;
+  margin: 0 auto;
+  height: 10px;
+}
+
+.content {
+  background-color: #608951;
+  width: 65%;
+  margin-left: 2.5%;
+  height: 400px;
+  float: left;
+}
+
+aside {
+  background-color: #888D26;
+  width: 30%;
+  height: 400px;
+  float: left;
+}
+
+ul {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-style: bold;
+  padding-top: 10px 5px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+li {
+  margin-left: 5px;
+}
+
+button {
+    background-color:#5CD6FF;
+    text-decoration:none;
+    font-size: 15px;
+    color:#000000;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.edBtn {
+  position: absolute;
+    left: 450px;
+  margin-top: 4px;
+}
+
+.delBtn {
+  position: absolute;
+    left: 500px;
+  margin-top: 4px; 
+}
+
+.checked {
+  color: #ADAD85;
+  font-family: "Raleway";
+  text-decoration:line-through;
+  font-size: 20px;
+  font-style: bold;
+  padding-top: 10px 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/*.edBtn .checked {
+  display: none;
+}*/
+
+aside #toDoForm input {
+  padding: 5px 5px;
+  background-color:#5CD6FF;
+  font-size: 17px;
+  color:#000000;
+  border-radius: 10px;
+}
